@@ -1,0 +1,249 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/*sliders*/
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.carousel-indicators{
+    bottom:-30px;
+}
+.carousel-indicators button {
+    width: 5px!important;
+    height: 5px!important;
+    border-radius: 100%!important;
+  }
+
+/*heading*/
+
+#heading{
+    letter-spacing: 2px;
+    font-size: 0.875em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sec {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.nav-btn{
+    display: inline-block;
+    padding: 10px 35px;
+    margin: 50px,0;
+}
+
+/*text-decoration*/
+
+p{
+    font-size:1.5rem;
+    color:#131414;
+    font-weight: 400;
+}
+h1{
+    font-size: 2.5rem;
+    color:black!important;
+}
+h2,h3{
+    word-spacing: 1.6;
+    color:black!important;
+}
+h4{
+    color:black!important;
+}
+.input-box-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: darkslategrey;
+}
+
+/*Letter spacing*/
+
+#l{
+    letter-spacing: 2px;
+    font-size: 0.875em;
+}
+
+/*It removes underline from my hyperlinks*/
+
+a{
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 3px;
+    font-size: 0.875em;
+}
+a:hover{
+    text-decoration: none!important;
+    list-style: none;
+}
+
+/*button style*/
+
+.my-button{
+    border-radius: 30%!important;
+    padding:2px 4px;
+
+}
+
+/*text-bold*/
+
+.text-bold{
+    font-weight: bold;
+}
+
+/*card section*/
+
+/* Container holding the image and the text */
+
+.section {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+/* Centered text */
+
+.centered{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#card{
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
+#h{
+    text-align:center;
+    margin: 0 auto 80px;
+    position:relative;
+    line-height: 60px;
+    
+}
+#h::after{
+    content:'';
+    background:#f80707;
+    width: 180px;
+    height: 5px;
+    border-radius: 5px;
+    position:absolute;
+    bottom: 0;
+    left:50%;
+    transform:translateX(-50%);
+}
+#i{
+    letter-spacing: 2px;
+    font-size: 0.875em;
+}
+
+#i::after{
+    content:'';
+    background:#f80707;
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+    position:absolute;
+    bottom: 25px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+/*Buy Now Btn*/
+
+.btn1{
+    display: inline-block;
+    background:red;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 50px,0;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+.btn1:hover{
+    background: #563434;
+    color: #fff;
+}
+
+/*car section*/
+
+.img-1{
+    position: relative;
+    z-index: 1;
+    top: 90px;
+}
+.img-2{
+    position: relative;
+    z-index: 1;
+}
+#reg{
+    letter-spacing: 3px;
+    color:#f80909!important;
+    font-size: 0.875em;
+}
+#number{
+    font-size: 4.5rem;
+}
+.card-text-1{
+    text-align: right!important;
+}
+.card-text-2{
+    text-align: left!important;
+}
+.c1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.c2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*rate section*/
+
+/*text-overlap*/
+#loyality{
+    font-size: 4.5rem;
+    opacity: 0.2;
+}
+#rate{
+    letter-spacing: 3px;
+    color:#f80909!important;
+    position: relative;
+    bottom:70px;
+}
+.dropdown-menu{
+    max-height:200px;
+    overflow: scroll;
+}
+#my-btn{
+    font-size:2.5rem;
+    letter-spacing: 4px;
+}
+
+/*blog section*/
+
+#card-2{
+    padding-top: 90px;
+}
+#l-1{
+    letter-spacing: 2px;
+    font-size: 0.875em;
+    padding-top: 40px;
+}
+#l-2{
+    letter-spacing: 2px;
+    font-size: 0.875em;
+    padding-top: 30px;
+}
+
+ /*footer*/ 
+h6{
+    font-size: 0.75em;
+}
